@@ -1,4 +1,6 @@
-# F1 Rain & Driver Performance Dashboard 🏎🏎
+
+![download](https://github.com/user-attachments/assets/1d45e299-b05b-44e8-8260-49b50035baa5)
+## F1 Rain & Driver Performance Dashboard 🏎🏎
 
 ## Overview
 
