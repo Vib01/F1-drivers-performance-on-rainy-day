@@ -1,51 +1,65 @@
-<img width="1795" height="1008" alt="Screenshot 2025-10-22 113554" src="https://github.com/user-attachments/assets/76fecf17-91c5-40b7-a878-0ead38360676" />
-# F1 Driver Performance Analysis in Rainy Conditions
+﻿# F1 Rain & Driver Performance Dashboard 
 
-This interactive dashboard visualizes Formula 1 driver performance during rainy conditions. It uses FastF1 to fetch and analyze race data, providing insights into how different drivers perform in wet weather.
+This interactive dashboard provides insights into Formula 1 driver performance during rainy sessions. It uses FastF1 to fetch lap and weather data and visualizes lap times, track temperature effects, and driver summaries using Dash and Plotly.
+
+![F1 Rain Dashboard](https://github.com/user-attachments/assets/1d45e299-b05b-44e8-8260-49b50035baa5)
 
 ## Features
 
 - Interactive visualization of lap times during rain
 - Track temperature vs. lap time analysis
-- Driver performance comparison
-- Responsive design for all devices
-<img width="1808" height="913" alt="Screenshot 2025-10-22 113619" src="https://github.com/user-attachments/assets/dae5322d-82f8-43eb-b50f-2d702e608cbc" />
+- Driver performance comparison (average lap time during rain)
+- Responsive dashboard built with Dash
 
 ## Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Vib01F1-drivers-performance-on-rainy-day.git
-   cd Vib01F1-drivers-performance-on-rainy-day
-   ```
 
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```powershell
+git clone https://github.com/Vib01/F1-drivers-performance-on-rainy-day.git
+cd F1-drivers-performance-on-rainy-day
+```
 
-3. Run the dashboard:
-   ```bash
-   python Fast1\ data.py
-   ```
+2. Create and activate a virtual environment (recommended):
 
-4. Open your browser and navigate to `http://127.0.0.1:8050/`
+```powershell
+python -m venv .venv; .\.venv\Scripts\Activate.ps1
+```
+
+3. Install requirements:
+
+```powershell
+pip install -r requirements.txt
+```
+
+4. Run the dashboard (note the space in the filename  quote it):
+
+```powershell
+python "Fast1 data.py"
+```
+
+5. Open your browser at http://127.0.0.1:8050/
 
 ## Dependencies
 
-- Python 3.7+
+- Python 3.8+
 - FastF1
 - Dash
 - Plotly
 - Pandas
-- Statsmodels (optional, for trendlines)
+- NumPy
+- Statsmodels (optional; used to enable LOWESS trendlines if installed)
+
+Statsmodels is optional  the code will run without it, but trendlines require it. The repository's `requirements.txt` already lists `statsmodels>=0.13.0`.
 
 ## Usage
 
-1. Select the year, event, and session type
-2. Choose a driver or keep "All Drivers" selected
-3. Explore the interactive visualizations
+1. Select the year, event, and session type in the sidebar.
+2. Choose a driver or select "All Drivers".
+3. Explore lap-time scatter plots, temperature correlations, and driver summaries.
 
-## Data Source
+## Data source
 
-Race data is provided by the [FastF1](https://github.com/theOehrly/Fast-F1) library.
+Race data is provided by the FastF1 library: https://github.com/theOehrly/Fast-F1
+
+---
