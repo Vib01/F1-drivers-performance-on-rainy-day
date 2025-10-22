@@ -1,3 +1,4 @@
+<img width="1795" height="1008" alt="Screenshot 2025-10-22 113554" src="https://github.com/user-attachments/assets/76fecf17-91c5-40b7-a878-0ead38360676" />
 # F1 Driver Performance Analysis in Rainy Conditions
 
 This interactive dashboard visualizes Formula 1 driver performance during rainy conditions. It uses FastF1 to fetch and analyze race data, providing insights into how different drivers perform in wet weather.
@@ -8,6 +9,7 @@ This interactive dashboard visualizes Formula 1 driver performance during rainy 
 - Track temperature vs. lap time analysis
 - Driver performance comparison
 - Responsive design for all devices
+<img width="1795" height="1008" alt="Screenshot 2025-10-22 113554" src="https://github.com/user-attachments/assets/1b86bb19-077b-4e1c-9dba-b23c61502f2f" />
 
 ## Setup
 
