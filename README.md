@@ -9,7 +9,7 @@ This interactive dashboard visualizes Formula 1 driver performance during rainy 
 - Track temperature vs. lap time analysis
 - Driver performance comparison
 - Responsive design for all devices
-<img width="1795" height="1008" alt="Screenshot 2025-10-22 113554" src="https://github.com/user-attachments/assets/1b86bb19-077b-4e1c-9dba-b23c61502f2f" />
+<img width="1808" height="913" alt="Screenshot 2025-10-22 113619" src="https://github.com/user-attachments/assets/dae5322d-82f8-43eb-b50f-2d702e608cbc" />
 
 ## Setup
 
