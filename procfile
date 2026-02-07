@@ -1,0 +1,1 @@
+web: gunicorn "Fast1 data:server" --bind 0.0.0.0:$PORT
