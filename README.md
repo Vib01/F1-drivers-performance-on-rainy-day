@@ -1,7 +1,13 @@
-<<<<<<< HEAD
+
 ﻿# F1 Rain & Driver Performance Dashboard 
 
 This interactive dashboard provides insights into Formula 1 driver performance during rainy sessions. It uses FastF1 to fetch lap and weather data and visualizes lap times, track temperature effects, and driver summaries using Dash and Plotly.
+<iframe
+	src="https://vib001-f1-weather.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
 
 ![F1 Rain Dashboard](https://github.com/user-attachments/assets/1d45e299-b05b-44e8-8260-49b50035baa5)
 
