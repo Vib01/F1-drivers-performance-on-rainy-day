@@ -79,3 +79,12 @@ The application integrates data from the FastF1 library, which retrieves detaile
 - Hover over the graphs to see additional details on lap times and driver performance.
 
 I personally advice to run it locally for better user experience. cause I am using free tier on hugging face, its not that good.
+
+the images attached are of dashboard when deployed locally
+
+
+<img width="1920" height="1072" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/74a102bf-2c30-4e1c-9bea-b11f13fab9c9" />
+<img width="1920" height="1072" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/68237f67-1df9-4b33-97fc-e238e5417614" />
+<img width="1920" height="1075" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/fd31ed70-52cf-4167-8ee3-efbdd739e1b7" />
+<img width="1913" height="1074" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/0c0db6fa-34ad-463a-8e0b-f993c71d714e" />
+
