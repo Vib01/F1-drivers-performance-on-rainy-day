@@ -4,13 +4,7 @@
 This interactive dashboard provides insights into Formula 1 driver performance during rainy sessions. It uses FastF1 to fetch lap and weather data and visualizes lap times, track temperature effects, and driver summaries using Dash and Plotly.
 
 - Just tried out hugging face too , check it out here
-<iframe
 	src="https://vib001-f1-weather.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
-
 
 
 ## Features
