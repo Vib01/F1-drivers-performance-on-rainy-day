@@ -78,7 +78,4 @@ The application integrates data from the FastF1 library, which retrieves detaile
 - The dashboard will update the graphs to display lap times, track temperature, and performance summary for the selected criteria.
 - Hover over the graphs to see additional details on lap times and driver performance.
 
-I personally advice to run it locally for better user experience. cause I am using free tier on hugging face, its not that good.<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/e21956c9-2f9e-477c-a7bc-2b86b278f6f1" />
-<img width="1920" height="1200" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/3e44ca4b-119b-48e3-bc3a-b2612723b2bb" />
-<img width="1920" height="1200" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/e316342c-c45a-4639-a810-152e171567e3" />
-<img width="1920" height="1200" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/5fc1fe23-5d92-4cc8-8f5a-df34889c8422" />
+I personally advice to run it locally for better user experience. cause I am using free tier on hugging face, its not that good.
